@@ -1,0 +1,58 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #f8fafc;
+
+  text-align: center;
+  padding: 2em;
+}
+
+/* 404 grande */
+.container h1{
+  font-size: 6rem;
+  font-weight: 800;
+  color: #60a5fa;
+  margin: 0;
+}
+
+/* Subtítulo */
+.container h2 {
+  font-size: 1.8rem;
+  margin: 0.5em 0 1.5em;
+  color: #e2e8f0;
+}
+
+/* Link botón */
+.link {
+  text-decoration: none;
+  padding: 0.7em 2em;
+  font-size: 1.1rem;
+  font-weight: 600;
+
+  color: white;
+  background-color: #2563eb;
+  border-radius: 2em;
+
+  transition: 0.3s ease;
+}
+
+.link:hover {
+  background-color: #1d4ed8;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container h1 {
+    font-size: 4rem;
+  }
+
+  .container h2 {
+    font-size: 1.3rem;
+  }
+}

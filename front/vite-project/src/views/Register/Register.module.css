@@ -1,0 +1,100 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f172a; /* mismo fondo que landing */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 4em auto;
+  padding: 2em;
+
+  border-radius: 1em;
+  background-color: #ffffff;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Título */
+.form h2 {
+  margin: 0 auto 1em;
+  color: #0f172a;
+  font-size: 1.8em;
+}
+
+/* Labels */
+.form label {
+  font-size: 0.95em;
+  font-weight: 600;
+  margin-top: 1em;
+  color: #334155;
+}
+
+/* Inputs */
+.form input {
+  margin-top: 0.3em;
+  padding: 0.7em;
+  font-size: 0.95em;
+  border-radius: 0.6em;
+  border: 1px solid #cbd5f5;
+  outline: none;
+  transition: 0.2s;
+  background-color: #f8fafc;
+}
+
+/* Focus input */
+.form input:focus {
+  border-color: #38bdf8;
+  background-color: #ffffff;
+}
+
+/* Error text */
+.error {
+  color: #ef4444;
+  font-size: 0.85em;
+  margin-top: 0.3em;
+  font-weight: 500;
+}
+
+/* Button */
+.form button {
+  margin: 2em auto 0;
+  padding: 0.7em 2.5em;
+  font-size: 1em;
+
+  color: white;
+  background-color: #38bdf8;
+  border: none;
+  border-radius: 0.7em;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Hover botón */
+.form button:hover {
+  background-color: #0ea5e9;
+}
+
+/* Disabled button */
+.form button:disabled {
+  background-color: #94a3b8;
+  cursor: not-allowed;
+}
+
+/* Link login */
+.login {
+  margin: 1.5em auto 0;
+  font-size: 0.95em;
+  color: #38bdf8;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+}
+
+.login:hover {
+  text-decoration: underline;
+}

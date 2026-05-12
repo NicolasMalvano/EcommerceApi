@@ -1,0 +1,91 @@
+.container {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+}
+
+/* Título */
+.title {
+  background-color: #38bdf8;
+  border-radius: 2em;
+  display: inline-block;
+  font-size: 2rem;
+  padding: 0.5em 0.5em;
+}
+
+/* Grid de productos */
+.grid {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  flex-wrap: wrap;
+  margin: 3em 3em;
+  justify-content: center;
+}
+
+/* Estados */
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #38bdf8;
+}
+
+.empty {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #94a3b8;
+}
+
+.home{
+  background-color: #0ea5e9;
+  padding: 1.5em 1.5em;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1em;
+  list-style: none;
+  margin-top: 20px;
+}
+
+/* Contenedor de la paginación */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 30px;
+  margin: 40px 0; 
+}
+
+/* Botones */
+.pagination button {
+  border: none;
+  border-radius: 8px;
+  background-color: #111;
+  color: white;
+  cursor: pointer;
+  font-size: 2em;
+  transition: all 0.2s ease;
+}
+
+/* Hover */
+.pagination button:hover {
+  background-color: #333;
+  transform: translateY(-1px);
+}
+
+/* Botón deshabilitado */
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Texto de página */
+.pagination span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #444;
+}

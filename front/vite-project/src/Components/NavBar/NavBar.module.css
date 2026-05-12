@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 30px;
+  background: #0f172a;
+  color: white;
+
+  border-bottom: 1px solid #1e293b;
+}
+
+/* Logo */
+.logo a {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #38bdf8;
+}
+
+/* Links */
+.links {
+  display: flex;
+  gap: 25px;
+}
+
+.links a {
+  color: #cbd5f5;
+  transition: 0.2s;
+}
+
+.links a:hover {
+  color: #38bdf8;
+}
+
+/* User */
+.user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.username {
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+/* Logout button */
+.logout {
+  background: #38bdf8;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: #0f172a;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.logout:hover {
+  background: #0ea5e9;
+}
